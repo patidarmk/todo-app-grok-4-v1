@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import { Link, useRouter } from "@tanstack/react-router";
-import { Menu, X } from "lucide-react";
+import { Menu, CheckSquare } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { cn } from "@/lib/utils";

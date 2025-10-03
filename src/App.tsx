@@ -31,11 +31,11 @@ const rootRoute = createRootRoute({
             <Outlet />
           </main>
           <Footer />
-          <Toaster />
-          <Sonner />
-        </TooltipProvider>
-      </QueryClientProvider>
-    ),
+        </div>
+        <Toaster />
+        <Sonner />
+      </TooltipProvider>
+    </QueryClientProvider>
   ),
 })
 
