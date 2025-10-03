@@ -1,5 +1,6 @@
 "use client";
 import * as React from "react";
+import { CheckSquare } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 import TodoItem from "./TodoItem";
 import AddTodo from "./AddTodo";
